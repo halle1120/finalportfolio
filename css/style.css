@@ -274,13 +274,9 @@ input {
         #parallax {
             background-attachment: initial;
         }
-        .flip-card-front, .flip-card-back{
-            -webkit-backface-visibility: none;
-        }
-        /*.flip-card-back{
-            transition: none;
+        .flip-card:hover .flip-card-inner, .flip-card:focus-within .flip-card-inner, .flip-card:active .flip-card-inner, .flip-card:focus .flip-card-inner{
             transform: none;
-        }*/
+        }
     }
 
 
