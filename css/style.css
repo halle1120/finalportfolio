@@ -277,6 +277,9 @@ input {
         .flip-card:hover .flip-card-inner, .flip-card:focus-within .flip-card-inner, .flip-card:active .flip-card-inner, .flip-card:focus .flip-card-inner{
             transform: none;
         }
+        .video{
+            display: none;
+        }
     }
 
 
