@@ -325,9 +325,10 @@ input {
         }
         nav li{
             display: inline-block;
-            width: 50%;
+            width: 80%;
             justify-items: right;
             font-size: 18px;
+            padding: 5px;
 
         }
         nav ul{
