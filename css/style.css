@@ -69,20 +69,6 @@ h1{
     padding: 20px;
 
 }
-#parallax{
-    background-attachment: fixed; /* Parallax effect */
-    background-position: center; /* Parallax effect */
-    background-repeat: no-repeat;
-    background-size: cover; /* Parallax effect */
-    color: white;
-    font-size: 0;
-    height: 400px; /* Parallax effect */
-    overflow: hidden;
-  
-
-    background-image: url("../images/parallax.png");
-    background-repeat: no-repeat;
-  }
 
 h2{
     font-size: 25px;
@@ -97,6 +83,9 @@ h3{
     color: black;
     padding: 10px;
     text-decoration: underline white 5px;
+}
+h4{
+    font-size: 0;
 }
 
 p{
@@ -296,6 +285,20 @@ input {
         nav ul{
             display: inline-block;
         }
+        #parallax{
+            background-attachment: fixed; /* Parallax effect */
+            background-position: center; /* Parallax effect */
+            background-repeat: no-repeat;
+            background-size: cover; /* Parallax effect */
+            color: white;
+            font-size: 0;
+            height: 400px; /* Parallax effect */
+            overflow: hidden;
+          
+        
+            background-image: url("../images/parallax.png");
+            background-repeat: no-repeat;
+          }
 
         .photos-container{
             display: grid;
@@ -335,6 +338,20 @@ input {
         nav ul{
             display: inline-block;
         }
+        #parallax{
+            background-attachment: fixed; /* Parallax effect */
+            background-position: center; /* Parallax effect */
+            background-repeat: no-repeat;
+            background-size: cover; /* Parallax effect */
+            color: white;
+            font-size: 0;
+            height: 400px; /* Parallax effect */
+            overflow: hidden;
+          
+        
+            background-image: url("../images/parallax.png");
+            background-repeat: no-repeat;
+          }
 
         .photos-container{
             display: grid;
