@@ -320,6 +320,20 @@ input {
     }
 
     @media only screen and (min-width: 1000px){
+        nav{
+            text-align: center;
+        }
+        nav li{
+            display: inline-block;
+            width: 50%;
+            justify-items: right;
+            font-size: 18px;
+
+        }
+        nav ul{
+            display: inline-block;
+        }
+
         .photos-container{
             display: grid;
             grid-template-columns: minmax(0, 1fr)minmax(0, 1fr)minmax(0,1fr)minmax(0, 1fr);
