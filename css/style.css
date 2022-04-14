@@ -183,6 +183,7 @@ img{
     flex-direction: column;
     justify-content: left;
     flex-wrap: wrap;
+    min-height: 100%;
 }
 .photos-flex-item{
     width: 100%;
